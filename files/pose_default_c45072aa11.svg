@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- Two rings side by side, slightly angled -->
+  <ellipse cx="11" cy="16" rx="7" ry="9" stroke="#555" stroke-width="1.5" fill="none" transform="rotate(-10 11 16)"/>
+  <ellipse cx="21" cy="16" rx="7" ry="9" stroke="#555" stroke-width="1.5" fill="none" transform="rotate(10 21 16)"/>
+</svg>

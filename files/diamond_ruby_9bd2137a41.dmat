@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "version": 4.6001,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "Gem",
+  "uuid": "5f896f98-5cb0-4cde-bf68-c9d6d8ea5f27",
+  "color": 14762614,
+  "envMapIntensity": 1.3,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "envMapRotationOffsetX": 0,
+  "envMapRotationOffsetY": 0,
+  "envMapRotationOffsetZ": 0,
+  "dispersion": 0.01,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1,
+  "reflectivity": 0.5,
+  "refractiveIndex": 2.6,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "cloneId": "0_7_3",
+    "cloneCount": 0,
+    "icon": "https://packs.ijewel3d.com/files/1_gem_ruby_1_288f497dbb.png",
+    "label": "Ruby",
+    "uuid": "5f896f98-5cb0-4cde-bf68-c9d6d8ea5f27"
+  },
+  "type": "DiamondMaterial",
+  "textures": [],
+  "images": []
+}

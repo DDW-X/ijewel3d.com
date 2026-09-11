@@ -1,0 +1,29 @@
+<svg width="352" height="45" viewBox="0 0 352 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g shape-rendering="geometricPrecision">
+<rect width="352" height="42" transform="translate(0 3)" fill="white"/>
+<mask id="path-1-inside-1_363_551" fill="white">
+<path d="M0 23C0 16.3726 5.37258 11 12 11H340C346.627 11 352 16.3726 352 23V37H0V23Z"/>
+</mask>
+<path d="M0 23C0 16.3726 5.37258 11 12 11H340C346.627 11 352 16.3726 352 23V37H0V23Z" fill="white"/>
+<path d="M-1 23C-1 15.8203 4.8203 10 12 10H340C347.18 10 353 15.8203 353 23H351C351 16.9249 346.075 12 340 12H12C5.92487 12 1 16.9249 1 23H-1ZM1 23M352 37H0H352M-1 37V23C-1 15.8203 4.8203 10 12 10V12C5.92487 12 1 16.9249 1 23V37H-1ZM340 10C347.18 10 353 15.8203 353 23V37H351V23C351 16.9249 346.075 12 340 12V10Z" fill="#616161" mask="url(#path-1-inside-1_363_551)"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 1 12)" fill="white"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 20.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 40 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 59.5 12)" fill="#909090"/>
+<rect width="2" height="12" transform="translate(78 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 98.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 118 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 137.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 157 12)" fill="#909090"/>
+<rect width="2" height="12" transform="translate(175.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 196 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 215.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 235 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 254.5 12)" fill="#909090"/>
+<rect width="2" height="12" transform="translate(273 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 293.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 313 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 332.5 12)" fill="#909090"/>
+<rect width="2" height="5" transform="matrix(-1 0 0 1 352 12)" fill="white"/>
+</g>
+</svg>

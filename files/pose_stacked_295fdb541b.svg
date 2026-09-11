@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+  <!-- Two rings stacked vertically -->
+  <ellipse cx="16" cy="11" rx="9" ry="5" stroke="#555" stroke-width="1.5" fill="none"/>
+  <ellipse cx="16" cy="21" rx="9" ry="5" stroke="#555" stroke-width="1.5" fill="none"/>
+</svg>

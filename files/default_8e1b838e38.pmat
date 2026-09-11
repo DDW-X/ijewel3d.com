@@ -1,0 +1,149 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "02fc5e44-1d54-4904-a1e8-14e6dc53dbd0",
+ "type": "MeshStandardMaterial2",
+ "name": "Wood Wenge",
+ "color": 4860950,
+ "roughness": 0.2973140679017818,
+ "metalness": 0.1441361581420087,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "map": "d323e33e-9de6-4b65-92d0-1072d6f01f7c",
+ "roughnessMap": "4d50b17e-6d38-40d2-a57e-74ff04d35eaf",
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "_triplanarMapping": {
+   "enable": true,
+   "scaleFactor": 1,
+   "blendFactor": 6,
+   "offsetFactor": 0,
+   "fixToObject": false
+  },
+  "gltfExtensions": {},
+  "label": "Wood Wenge"
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "d323e33e-9de6-4b65-92d0-1072d6f01f7c",
+   "name": "",
+   "image": "a10b35df-ac9f-4975-b2bc-52d39feabcf6",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb",
+   "encoding": 3001,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": false,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/wood_329bd7b8b5.jpg"
+   }
+  },
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "4d50b17e-6d38-40d2-a57e-74ff04d35eaf",
+   "name": "",
+   "image": "0c7be0d6-6e9c-4dac-bcbb-07d0749ceb46",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1001,
+    1001
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb-linear",
+   "encoding": 3000,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": false,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/wood_bump_5b98b6225c.jpg"
+   }
+  }
+ ],
+ "images": []
+}

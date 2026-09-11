@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "version": 4.6001,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "Gem",
+  "uuid": "f556e4f5-5de7-44c7-85bb-664c7a46cfb5",
+  "color": 0,
+  "envMapIntensity": 1.03,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "envMapRotationOffsetX": 0,
+  "envMapRotationOffsetY": 0,
+  "envMapRotationOffsetZ": 0,
+  "dispersion": 0.012,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 15,
+  "reflectivity": 0.5,
+  "refractiveIndex": 2.6,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "rootPath": "https://packs.ijewel3d.com/files/2_gem_diamond_black_7e415915d7.dmat?localhost",
+    "cloneId": "0_1",
+    "cloneCount": 0,
+    "uuid": "f556e4f5-5de7-44c7-85bb-664c7a46cfb5"
+  },
+  "type": "DiamondMaterial",
+  "textures": [],
+  "images": []
+}

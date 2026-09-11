@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "version": 4.6,
+    "type": "DiamondMaterial",
+    "generator": "DiamondMaterial.toJSON"
+  },
+  "name": "sapphire-1",
+  "uuid": "2c795c86-c04d-4bc5-8a37-5aa6dcf7e68d",
+  "color": 6593988,
+  "envMapIntensity": 1,
+  "envMapIndex": 0,
+  "envMapRotationOffset": 0,
+  "dispersion": 0,
+  "squashFactor": 0.98,
+  "geometryFactor": 0.5,
+  "gammaFactor": 1,
+  "absorptionFactor": 1.6,
+  "reflectivity": 0.5,
+  "refractiveIndex": 1.7699999999999998,
+  "rayBounces": 5,
+  "diamondOrientedEnvMap": 0,
+  "boostFactors": {
+    "x": 1,
+    "y": 1,
+    "z": 1.2,
+    "isVector3": true
+  },
+  "transmission": 0,
+  "isDiamondMaterialParameters": true,
+  "type": "DiamondMaterial",
+  "userData": {
+    "separateEnvMapIntensity": true,
+    "uuid": "2c795c86-c04d-4bc5-8a37-5aa6dcf7e68d"
+  }
+}

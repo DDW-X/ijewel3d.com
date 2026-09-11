@@ -1,0 +1,113 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "ec2af1b4-1ae0-4be3-980f-df3f638240fd",
+ "type": "MeshStandardMaterial2",
+ "name": "Rose Gold 22K Hammered",
+ "color": 16755040,
+ "roughness": 0.2877345691772677,
+ "metalness": 1,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "normalMap": "94c602e2-c550-40b1-a54b-ffe01a68585c",
+ "normalMapType": 0,
+ "normalScale": [
+  4,
+  -4
+ ],
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "gltfExtensions": {},
+  "_triplanarMapping": {
+   "enable": true,
+   "scaleFactor": 0.5,
+   "blendFactor": 10,
+   "offsetFactor": 0.5,
+   "fixToObject": false
+  },
+  "_a7221965-4f05-4c4c-bc57-220289ef373f_version": 209,
+  "_908a2068-b474-4c5c-80e2-ce5513d696d2_version": 4,
+  "_322b0ccc-89bf-4fba-8409-1fa54f88f1be_version": 1,
+  "label": "Rose Gold 22K Hammered",
+  "_7996ce45-ac5c-420c-aef3-3f76f05cf49f_version": 2
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "94c602e2-c550-40b1-a54b-ffe01a68585c",
+   "name": "",
+   "image": "d8113850-cf33-46e4-b111-180dd03ea181",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb-linear",
+   "encoding": 3000,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": false,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/hummered_4_normal_df39daefa6.jpg"
+   }
+  }
+ ],
+ "images": []
+}

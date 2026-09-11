@@ -1,0 +1,49 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "4f642f7e-01d5-4ef9-bdda-71f6ff5c883e",
+ "type": "MeshStandardMaterial2",
+ "name": "Ceramic Yellow Satin",
+ "color": 14466347,
+ "roughness": 0.28,
+ "metalness": 0,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0.9,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "label": "Ceramic Yellow Satin"
+ },
+ "textures": [],
+ "images": []
+}

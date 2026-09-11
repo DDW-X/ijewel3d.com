@@ -1,0 +1,109 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "26078327-bd7c-420f-b978-a605c7258a7b",
+ "type": "MeshStandardMaterial2",
+ "name": "Turquoise 2",
+ "color": 16777215,
+ "roughness": 0.15,
+ "metalness": 0.33135360340395353,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "map": "5c41495d-ac84-4b76-bd8a-6b14653966d1",
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 1.0000000000000002,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "_ssBevel": {
+   "hasSSBevel": true,
+   "radius": 4
+  },
+  "gltfExtensions": {},
+  "_triplanarMapping": {
+   "enable": true,
+   "scaleFactor": 1,
+   "blendFactor": 8,
+   "offsetFactor": 0,
+   "fixToObject": false
+  },
+  "_8a1bef76-1a64-4a23-9b68-b697beaaa5ad_version": 120,
+  "_a3e15408-289c-4258-8d7b-a9a43f48d4d6_version": 71,
+  "label": "Turquoise 2"
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "5c41495d-ac84-4b76-bd8a-6b14653966d1",
+   "name": "",
+   "image": "8e609582-8d67-4495-815f-7fb738f3c9be",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb",
+   "encoding": 3001,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": true,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/malachite_1_2_7a8200b58e.jpg"
+   }
+  }
+ ],
+ "images": []
+}

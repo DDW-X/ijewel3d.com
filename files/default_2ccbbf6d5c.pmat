@@ -1,0 +1,111 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "363f805e-4699-4638-9902-b941d3f084f9",
+ "type": "MeshStandardMaterial2",
+ "name": "Marble 2",
+ "color": 16777215,
+ "roughness": 1,
+ "metalness": 1,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 1,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "map": "f53ac75c-ffa8-4361-802f-3bdd7f148f83",
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 1.0000000000000002,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "gltfExtensions": {},
+  "_triplanarMapping": {
+   "enable": true,
+   "scaleFactor": 0.9,
+   "blendFactor": 10,
+   "offsetFactor": 0,
+   "fixToObject": false
+  },
+  "_66206f13-cb2d-42a6-aa77-24f42360e2f2_version": 22,
+  "_b15532d9-e548-4c20-816c-966bae6f1607_version": 185,
+  "_1558cb4d-2122-4943-995e-c5785bc6bee2_version": 67,
+  "_ca1ab29c-ffac-4f3f-b9ff-db133072f624_version": 132,
+  "_97075bbb-e050-4ba5-8639-e944073b3def_version": 4,
+  "_31fd690c-9165-4789-af85-4573330f7f4f_version": 711,
+  "_cd9fffd2-d272-48f9-a326-14c1179fcb0a_version": 38,
+  "label": "Marble 2"
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "f53ac75c-ffa8-4361-802f-3bdd7f148f83",
+   "name": "",
+   "image": "0c2915d8-4227-4bfa-adac-0a15d385d506",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb",
+   "encoding": 3001,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": true,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/material_3_dfa43db1a7.jpg"
+   }
+  }
+ ],
+ "images": []
+}

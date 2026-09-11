@@ -1,0 +1,17 @@
+<svg width="63" height="26" viewBox="0 0 63 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<mask id="mask1" fill="white">
+<path d="M0 7C0 3.13401 3.13401 0 7 0H56C59.866 0 63 3.13401 63 7V30H0V7Z"/>
+</mask>
+<path d="M-1 7C-1 2.58172 2.58172 -1 7 -1H56C60.4183 -1 64 2.58172 64 7H62C62 3.68629 59.3137 1 56 1H7C3.68629 1 1 3.68629 1 7H-1ZM1 7M63 30H0H63M-1 30V7C-1 2.58172 2.58172 -1 7 -1V1C3.68629 1 1 3.68629 1 7V30H-1ZM56 -1C60.4183 -1 64 2.58172 64 7V30H62V7C62 3.68629 59.3137 1 56 1V-1Z" fill="#909090" mask="url(#mask1)"/>
+<!-- Bezel outer ring (metal collar wrapping the stone) -->
+<circle cx="32" cy="13.5" r="7" stroke="#909090" stroke-width="1.5" fill="none"/>
+<!-- Diamond (inner circle representing the stone) -->
+<circle cx="32" cy="13.5" r="4" stroke="#909090" stroke-width="1" fill="none"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="63" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>

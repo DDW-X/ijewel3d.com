@@ -1,0 +1,105 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "76335cd4-37f3-4586-863c-03a43e1f3ac6",
+ "type": "MeshStandardMaterial2",
+ "name": "Rose Gold 14K Brush",
+ "color": 13873832,
+ "roughness": 0.39079247091303604,
+ "metalness": 0.7187039764359352,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "bumpMap": "9e961874-42b6-46eb-b6c4-d8f3f0b1401f",
+ "bumpScale": 0.00799999999999998,
+ "roughnessMap": "9e961874-42b6-46eb-b6c4-d8f3f0b1401f",
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "_ssBevel": {
+   "hasSSBevel": true,
+   "radius": 8
+  },
+  "gltfExtensions": {},
+  "legacyBumpScale": true,
+  "_322b0ccc-89bf-4fba-8409-1fa54f88f1be_version": 1,
+  "label": "Rose Gold 14K Brush"
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "9e961874-42b6-46eb-b6c4-d8f3f0b1401f",
+   "name": "https://packs.ijewel3d.com/files/brush_1_acf0a5860d.jpg",
+   "image": "234d02da-96ac-47c7-9ab5-eefa58dabc0f",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    3,
+    10
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 1.57,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb-linear",
+   "encoding": 3000,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": false,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://packs.ijewel3d.com/files/brush_1_acf0a5860d.jpg"
+   }
+  }
+ ],
+ "images": []
+}

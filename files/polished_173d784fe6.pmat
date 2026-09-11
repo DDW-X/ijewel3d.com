@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "version": 4.6001,
+    "type": "Material",
+    "generator": "Material.toJSON"
+  },
+  "uuid": "77da8346-1b21-441d-8e7d-cf9c41d279a0",
+  "type": "MeshStandardMaterial2",
+  "name": "Metal 02",
+  "color": 15053687,
+  "roughness": 0,
+  "metalness": 1,
+  "sheen": 0,
+  "sheenColor": 0,
+  "sheenRoughness": 1,
+  "emissive": 0,
+  "specularIntensity": 1,
+  "specularColor": 16777215,
+  "clearcoat": 0,
+  "clearcoatRoughness": 0,
+  "iridescence": 0,
+  "iridescenceIOR": 1.3,
+  "iridescenceThicknessRange": [
+    100,
+    400
+  ],
+  "anisotropy": 0,
+  "anisotropyRotation": 0,
+  "envMapRotation": [
+    0,
+    0,
+    0,
+    "XYZ"
+  ],
+  "envMapIntensity": 1,
+  "reflectivity": 0.49999999999999983,
+  "transmission": 0,
+  "thickness": 0,
+  "attenuationDistance": 0,
+  "attenuationColor": 16777215,
+  "side": 2,
+  "blendColor": 0,
+  "fog": false,
+  "userData": {
+    "cloneId": "0_1_2",
+    "rootPath": "https://assets.ijewel.design/v3/materials/metal/polished/metal-rosegold-polished.pmat",
+    "gltfExtensions": {},
+    "_c6295649-e244-4325-9a99-5d2964f9a6b1_version": 8,
+    "uuid": "77da8346-1b21-441d-8e7d-cf9c41d279a0"
+  },
+  "textures": [],
+  "images": []
+}

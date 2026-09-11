@@ -1,0 +1,51 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "0bfa8051-3d59-4da0-b6ee-d7ec71ffd52d",
+ "type": "MeshStandardMaterial2",
+ "name": "White Gold 22K Polished",
+ "color": 13024932,
+ "roughness": 0,
+ "metalness": 1,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "gltfExtensions": {},
+  "_c6295649-e244-4325-9a99-5d2964f9a6b1_version": 8,
+  "label": "White Gold 22K Polished"
+ },
+ "textures": [],
+ "images": []
+}

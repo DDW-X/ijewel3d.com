@@ -1,0 +1,117 @@
+{
+ "metadata": {
+  "version": 4.6001,
+  "type": "Material",
+  "generator": "Material.toJSON"
+ },
+ "uuid": "03d12b1d-fae0-4182-b1f3-16aadb589a51",
+ "type": "MeshStandardMaterial2",
+ "name": "Yellow Gold 14K Sand",
+ "color": 13152925,
+ "roughness": 0.6,
+ "metalness": 0.8,
+ "sheen": 0,
+ "sheenColor": 0,
+ "sheenRoughness": 1,
+ "emissive": 0,
+ "specularIntensity": 1,
+ "specularColor": 16777215,
+ "clearcoat": 0,
+ "clearcoatRoughness": 0,
+ "dispersion": 0,
+ "iridescence": 0,
+ "iridescenceIOR": 1.3,
+ "iridescenceThicknessRange": [
+  100,
+  400
+ ],
+ "anisotropy": 0,
+ "anisotropyRotation": 0,
+ "bumpMap": "5f73be1f-0e0c-43fd-967b-f729bb3d7909",
+ "bumpScale": 0.00799999999999998,
+ "roughnessMap": "5f73be1f-0e0c-43fd-967b-f729bb3d7909",
+ "envMapRotation": [
+  0,
+  0,
+  0,
+  "XYZ"
+ ],
+ "envMapIntensity": 1,
+ "reflectivity": 0.49999999999999983,
+ "transmission": 0,
+ "thickness": 0,
+ "attenuationDistance": 0,
+ "attenuationColor": 16777215,
+ "side": 2,
+ "blendColor": 0,
+ "fog": false,
+ "userData": {
+  "gltfExtensions": {},
+  "_triplanarMapping": {
+   "enable": true,
+   "scaleFactor": 6,
+   "blendFactor": 1,
+   "offsetFactor": 0,
+   "fixToObject": false
+  },
+  "_194d369e-75eb-4549-8cf8-af3396405d1e_version": 1,
+  "_908a2068-b474-4c5c-80e2-ce5513d696d2_version": 8,
+  "_d3f4ffbb-33d6-48c3-8c62-a938dedffdf1_version": 2,
+  "_0e448880-4417-494a-9f64-8fbbfe9f936e_version": 2,
+  "_5e93e2fc-cd2c-4558-bcd3-5667ec2dbd1f_version": 2,
+  "_e1038f44-91cb-46f1-80b3-bd9e79040cf8_version": 2,
+  "_cbf595f2-91eb-4c3a-9a8f-7c123799e7a4_version": 241,
+  "_64d44ad4-76b0-4efb-a295-3b193ab20380_version": 3,
+  "legacyBumpScale": true,
+  "label": "Yellow Gold 14K Sand",
+  "_322b0ccc-89bf-4fba-8409-1fa54f88f1be_version": 1,
+  "_7996ce45-ac5c-420c-aef3-3f76f05cf49f_version": 2
+ },
+ "textures": [
+  {
+   "metadata": {
+    "version": 4.6,
+    "type": "Texture",
+    "generator": "Texture.toJSON"
+   },
+   "uuid": "5f73be1f-0e0c-43fd-967b-f729bb3d7909",
+   "name": "",
+   "image": "2b3e1035-0678-4a3f-8080-0c0ac0ffd0d5",
+   "mapping": 300,
+   "channel": 0,
+   "repeat": [
+    1,
+    1
+   ],
+   "offset": [
+    0,
+    0
+   ],
+   "center": [
+    0,
+    0
+   ],
+   "rotation": 0,
+   "wrap": [
+    1000,
+    1000
+   ],
+   "format": 1023,
+   "internalFormat": null,
+   "type": 1009,
+   "colorSpace": "srgb-linear",
+   "encoding": 3000,
+   "minFilter": 1008,
+   "magFilter": 1006,
+   "anisotropy": 1,
+   "flipY": false,
+   "generateMipmaps": true,
+   "premultiplyAlpha": false,
+   "unpackAlignment": 4,
+   "userData": {
+    "rootPath": "https://playground.ijewel3d.com/assetspro/maps/roughness/sand-1.jpg"
+   }
+  }
+ ],
+ "images": []
+}
