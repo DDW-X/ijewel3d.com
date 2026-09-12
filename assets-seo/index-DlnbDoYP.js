@@ -27817,7 +27817,7 @@ var [Hoe, yL] = od({
 });
 const Voe = "modulepreload",
   _oe = function (e) {
-    return "./" + e;
+    return (window.location.pathname.startsWith("/ijewel3d.com") ? "/ijewel3d.com/" : "./") + e;
   },
   m9 = {},
   ke = function (t, r, n) {
@@ -72191,7 +72191,7 @@ class _4e {
       }));
   }
   getWorkspace() {
-    return this.workspace;
+    return this.cleanWs ? this.cleanWs(this.workspace) : (this.workspace === "ddw-x" ? "drive-weur-1" : this.workspace);
   }
   canShowGoogleLogin() {
     return V4e.includes(this.workspace);
@@ -72202,22 +72202,25 @@ class _4e {
   getMainInstanceName() {
     return "drive-weur-1";
   }
+  cleanWs(w) {
+    return (!w || w === "ddw-x" || w.includes("github") || w.includes("localhost")) ? "drive-weur-1" : w;
+  }
   getBaseApiUrl() {
-    return `https://${this.workspace}.ijewel3d.com/api/raw/v1/`;
+    return `https://${this.cleanWs(this.workspace)}.ijewel3d.com/api/raw/v1/`;
   }
   getHostApiUrl() {
-    return `https://${this.hostWorkspace}.ijewel3d.com/api/raw/v1/`;
+    return `https://${this.cleanWs(this.hostWorkspace)}.ijewel3d.com/api/raw/v1/`;
   }
   getBasePublicApiUrl(t) {
     const r =
       this.hostWorkspace || (this.workspace.startsWith("dev") ? G4 : K4);
-    return `https://${t ? r : this.workspace}.ijewel3d.com/api/drive/v1/`;
+    return `https://${this.cleanWs(t ? r : this.workspace)}.ijewel3d.com/api/drive/v1/`;
   }
   getBaseFilesUrl() {
     var t;
     return (
       ((t = this.host.config) == null ? void 0 : t["files-api"]) ||
-      `https://${this.workspace}.ijewel3d.com/api/files/files/`
+      `https://${this.cleanWs(this.workspace)}.ijewel3d.com/api/files/files/`
     );
   }
   getToken() {
@@ -72249,6 +72252,7 @@ class _4e {
         : "ready";
   }
   getSubdomain(t) {
+    if (t.includes("github.io") || t.includes("localhost")) return "";
     var r;
     return (
       (t.includes(".") &&
