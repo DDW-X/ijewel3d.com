@@ -27848,7 +27848,7 @@ const Voe = "modulepreload",
             return new Promise((h, p) => {
               (d.addEventListener("load", h),
                 d.addEventListener("error", () =>
-                  p(new Error(`Unable to preload CSS for ${l}`)),
+                  h(),
                 ));
             });
         }),
@@ -27857,7 +27857,7 @@ const Voe = "modulepreload",
     function i(o) {
       const s = new Event("vite:preloadError", { cancelable: !0 });
       if (((s.payload = o), window.dispatchEvent(s), !s.defaultPrevented))
-        throw o;
+        console.warn("vite:preloadError suppressed:", o);
     }
     return a.then((o) => {
       for (const s of o || []) s.status === "rejected" && i(s.reason);

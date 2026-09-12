@@ -1,0 +1,1 @@
+import{j as s}from"./index-DlnbDoYP.js";import{S as a}from"./SectionHeader-DKbOD-1M.js";const n=({title:e,description:o,children:r,className:t=""})=>s.jsxs("div",{className:`${t}`,children:[s.jsx(a,{size:"sm",title:e,showSettings:!1,descroption:o}),s.jsx("div",{className:"gap-4",children:r})]});export{n as F};

@@ -1,0 +1,1 @@
+import{j as s}from"./index-DlnbDoYP.js";function r({title:e,children:m}){return s.jsxs("div",{className:"min-h-10 flex items-center gap-10",children:[e?s.jsx("div",{className:"w-44 shrink-0",children:s.jsx("p",{className:"text-small font-semibold",children:e})}):s.jsx(s.Fragment,{}),m]})}export{r as F};

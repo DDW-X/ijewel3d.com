@@ -1,0 +1,18 @@
+{
+  "name": "iJewel3D",
+  "short_name": "iJewel3D",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#6E72F2",
+  "icons": [
+    {
+      "src": "/logo-sm.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
+
+
+

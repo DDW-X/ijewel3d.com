@@ -1,0 +1,1 @@
+import{j as e}from"./index-DlnbDoYP.js";import{B as r}from"./BaseContentLayout-Br2iENmv.js";const u=({children:t,breadcrumb:o,toolbar:s,sidebar:l,footer:n})=>e.jsx(r,{slots:{breadcrumb:o,toolbar:s,sidebar:l,footer:n},config:{maxWidth:"full",padding:"none",scrollable:!0,fullwidth:!0},children:t});export{u as F};

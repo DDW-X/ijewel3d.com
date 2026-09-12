@@ -1,0 +1,1 @@
+import{j as s}from"./index-DlnbDoYP.js";import{l as o}from"./chunk-T4J2NQXB-Db-1iwjs.js";import{s as a}from"./chunk-BJWIL32D-D3PlFxZ9.js";const i=({children:t,...e})=>s.jsx(a,{...e,labelPlacement:"outside",children:t}),c=o;export{i as S,c as a};

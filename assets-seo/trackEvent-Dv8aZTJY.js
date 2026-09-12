@@ -1,0 +1,1 @@
+const o=(c,e={})=>{var n;try{const t=window;typeof(t==null?void 0:t.gtag)=="function"&&t.gtag("event",c,{event_category:e.event_category,...e}),typeof((n=t==null?void 0:t.mixpanel)==null?void 0:n.track)=="function"&&t.mixpanel.track(c,{source:e.source,...e})}catch{}};export{o as t};

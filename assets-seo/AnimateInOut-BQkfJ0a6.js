@@ -1,0 +1,1 @@
+import{j as e,m as s}from"./index-DlnbDoYP.js";const x=({children:i,animationKey:a,direction:n="right",className:o})=>{const t=n==="left"?-20:20;return e.jsx(s.div,{initial:{opacity:0,x:t},animate:{opacity:1,x:0},exit:{opacity:0,x:t},transition:{duration:.3,ease:"easeInOut"},className:o,children:i},a)};export{x as A};

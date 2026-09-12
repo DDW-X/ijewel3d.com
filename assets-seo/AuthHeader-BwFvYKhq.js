@@ -1,0 +1,1 @@
+import{j as r}from"./index-DlnbDoYP.js";import t from"./LandingHeader-CE-08LYW.js";import"./ChevronDown-D5MWZV1V.js";import"./BaseLink-CbT56pOB.js";import"./chunk-G6N63H5B-Bbu80YKI.js";import"./useButton-BAqLwAHv.js";import"./useToggleState-B6VQNgU4.js";const n=()=>r.jsx(t,{className:"relative block h-fit"});export{n as default};

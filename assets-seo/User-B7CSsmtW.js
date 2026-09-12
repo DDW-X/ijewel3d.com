@@ -1,0 +1,1 @@
+import{j as r}from"./index-DlnbDoYP.js";const s=o=>r.jsxs("svg",{xmlns:"http://www.w3.org/2000/svg",width:50,height:51,viewBox:"0 0 50 51",fill:"none",...o,children:[r.jsx("circle",{cx:25,cy:13,r:8.333,stroke:"currentColor",strokeWidth:2}),r.jsx("ellipse",{cx:25,cy:35.917,stroke:"currentColor",strokeWidth:2,rx:14.583,ry:8.333})]});export{s as S};
