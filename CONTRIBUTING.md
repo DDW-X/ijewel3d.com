@@ -1,3 +1,3 @@
-# Contributing to this Case Study
+# Contributing Guidelines
 
-Thank you for your interest! This repository is primarily a finalized reverse-engineering architectural study by DDW-X. However, if you find typos in the documentation, have suggestions for modernization blueprints, or want to expand on the GLSL shader math, feel free to open a Pull Request or Issue.
+Contributions to this architectural case study are welcome. If you notice inaccuracies in mathematical explanations, have optimizations for the modernization blueprints, or wish to expand on shader analyses, please submit an issue or pull request.

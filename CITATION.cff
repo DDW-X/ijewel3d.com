@@ -1,7 +1,9 @@
 cff-version: 1.2.0
-message: "If you reference this reverse-engineering study, please cite it as below."
+message: "If you reference this reverse-engineering study, graphics instrumentation, or architectural audit, please cite it as below."
 authors:
-  - alias: "DDW-X"
+  - family-names: "Razavi"
+    given-names: "Seyyed Ali"
+    alias: "DDW-X"
 title: "iJewel3D Engine: In-Depth Graphics Reverse-Engineering & Architectural Breakdown"
 date-released: 2026-09-12
 url: "https://github.com/DDW-X/ijewel3d.com"
