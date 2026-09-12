@@ -1,1 +1,379 @@
-import{aF as q,aL as K,aM as U,aU as M,aw as G,ax as Q,aV as Y,r as l,aW as Z,aX as ee,aA as se,az as te,aQ as ae,aB as re,aY as P,ay as v,av as ie,j as e,aZ as le}from"./index-DlnbDoYP.js";import{a as oe}from"./chunk-4WIG5FTT-H-0tVdqM.js";import{a as b}from"./chunk-CV4BWJDJ-oXyklWrC.js";var[ne,pe]=q({name:"CardContext",strict:!0,errorMessage:"useCardContext: `context` is undefined. Seems you forgot to wrap component within <Card />"});function de(s){var o,n,d,c;const r=K(),[t,a]=U(s,M.variantKeys),{ref:m,as:u,children:W,onClick:_,onPress:F,autoFocus:H,className:O,classNames:p,allowTextSelectionOnPress:$=!0,...x}=t,h=G(m),k=u||(s.isPressable?"button":"div"),D=typeof k=="string",i=(n=(o=s.disableAnimation)!=null?o:r==null?void 0:r.disableAnimation)!=null?n:!1,w=(c=(d=s.disableRipple)!=null?d:r==null?void 0:r.disableRipple)!=null?c:!1,N=Q(p==null?void 0:p.base,O),{onClear:S,onPress:R,ripples:A}=Y(),J=l.useCallback(C=>{w||i||h.current&&R(C)},[w,i,h,R]),{buttonProps:I,isPressed:g}=Z({onPress:ee(F,J),elementType:u,isDisabled:!s.isPressable,onClick:_,allowTextSelectionOnPress:$,...x},h),{hoverProps:L,isHovered:y}=se({isDisabled:!s.isHoverable,...x}),{isFocusVisible:j,isFocused:V,focusProps:B}=te({autoFocus:H}),f=l.useMemo(()=>M({...a,disableAnimation:i}),[ae(a),i]),E=l.useMemo(()=>({slots:f,classNames:p,disableAnimation:i,isDisabled:s.isDisabled,isFooterBlurred:s.isFooterBlurred,fullWidth:s.fullWidth}),[f,p,s.isDisabled,s.isFooterBlurred,i,s.fullWidth]),z=l.useCallback((C={})=>({ref:h,className:f.base({class:N}),tabIndex:s.isPressable?0:-1,"data-hover":v(y),"data-pressed":v(g),"data-focus":v(V),"data-focus-visible":v(j),"data-disabled":v(s.isDisabled),...re(s.isPressable?{...I,...B,role:"button"}:{},s.isHoverable?L:{},P(x,{enabled:D}),P(C))}),[h,f,N,D,s.isPressable,s.isHoverable,s.isDisabled,y,g,j,I,B,L,x]),X=l.useCallback(()=>({ripples:A,onClear:S}),[A,S]);return{context:E,domRef:h,Component:k,classNames:p,children:W,isHovered:y,isPressed:g,disableAnimation:i,isPressable:s.isPressable,isHoverable:s.isHoverable,disableRipple:w,handlePress:J,isFocusVisible:j,getCardProps:z,getRippleProps:X}}var T=ie((s,o)=>{const{children:n,context:d,Component:c,isPressable:r,disableAnimation:t,disableRipple:a,getCardProps:m,getRippleProps:u}=de({...s,ref:o});return e.jsxs(c,{...m(),children:[e.jsx(ne,{value:d,children:n}),r&&!t&&!a&&e.jsx(le,{...u()})]})});T.displayName="HeroUI.Card";var ce=T;const ve=()=>{const[s,o]=l.useState(!1),[n,d]=l.useState(!0),c=t=>{const a=t.currentTarget,m=a.scrollLeft<=20,u=Math.abs(a.scrollLeft+a.clientWidth-a.scrollWidth)<=20;o(!m),d(!u)};let r=[{review:"We've been using multiple products from iJewel, including Sandbox, BatchX, and iJewel, for the past year. All three platforms are fantastic and have significantly streamlined our daily operations. Sandbox and BatchX have greatly reduced our rendering wait times, accelerating our delivery speed, while iJewel has enhanced our customer experience.",reviewer:"Romil Shah",title:"COO, Guild and Facet",img1:"/landing/clients/gnf.png",img2:"/landing/romil_shah.jpeg"},{review:"I'm happy to share my thoughts on iJewel Drive. I've found it to be an incredibly useful tool that has significantly streamlined our workflow. The user-friendly interface and seamless file-sharing capabilities to our customers are particularly impressive. Since my team started using iJewel Drive, I've noticed a marked improvement, allowing them to work more efficiently on our custom projects.",reviewer:"Vik Jain",title:"CEO, Vlora",img1:"/landing/vlora.jpeg",img2:"/landing/vik_jain.jpeg"},{review:"If you design jewelry in Rhino, iJewelViewer is a must-have for client proposals. It's transformed the way we present, replacing static renders with interactive visuals—and it’s already helped me close dozens of jobs in just a few months. At $100 a year, it’s worth every cent.",reviewer:"Christian Stathom",title:"Jewellery Designer",img1:"",img2:""},{review:"I’ve been working with 3D jewelry modeling for over nine years, and iJewel3D is by far the most practical and revolutionary tool I've used. Its seamless integration with Rhinoceros, combined with the team’s constant innovation, has made it my go-to solution for rendering and client presentations. iJewel3D has truly become indispensable in today’s jewelry market.",reviewer:"Igor M",title:"Senior Jewellery Designer",img1:"",img2:""},{review:"Keep up the great work iJewel - best new CAD product - last few years. I love you guys",reviewer:"David Parry",title:"Jewellry Designer",img1:"",img2:""},{review:"I'm going to say something about IJewel. It is the highest-level render platform, easy and intuitive to use. Thanks, Jewel Team, for your effort and for giving us to show and bring it to live our digital creations.",title:"Jewellery Designer",reviewer:"arthur23",img1:"",img2:""}];return e.jsxs("div",{id:"testimonials",className:"w-full max-w-[2000px] text-black relative overflow-hidden bg-transparent mx-auto py-12 sm:py-24 px-0",children:[e.jsxs("p",{className:"sm:text-6xl text-center text-4xl text-[var(--text)] mb-2",children:["Beyond ",e.jsx("br",{className:"block sm:hidden"})," Expectations"]}),e.jsx("p",{className:"sm:text-xl text-md text-[var(--text)]/50 text-extralight text-center mb-24",children:"We help brands tell stories through beauty, detail, and immersive 3D experiences."}),e.jsxs("div",{className:"relative",children:[s&&e.jsx("button",{onClick:()=>{const t=document.querySelector(".testimonials-scroll");t&&t.scrollTo({left:t.scrollLeft-410,behavior:"smooth"})},className:"absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/10 backdrop-blur-sm hover:bg-white/20 rounded-full p-3 shadow-lg transition-opacity duration-200",children:e.jsx("svg",{width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",children:e.jsx("path",{d:"M15 19L8 12L15 5",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"})})}),n&&e.jsx("button",{onClick:()=>{const t=document.querySelector(".testimonials-scroll");t&&t.scrollTo({left:t.scrollLeft+410,behavior:"smooth"})},className:"absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/10 backdrop-blur-sm hover:bg-white/20 rounded-full p-3 shadow-lg transition-opacity duration-200",children:e.jsx("svg",{width:"24",height:"24",viewBox:"0 0 24 24",fill:"none",children:e.jsx("path",{d:"M9 5L16 12L9 19",stroke:"currentColor",strokeWidth:"2",strokeLinecap:"round",strokeLinejoin:"round"})})}),e.jsx("div",{className:"overflow-hidden",children:e.jsx("div",{className:"testimonials-scroll flex gap-6 py-4 px-2 overflow-x-auto scrollbar-hide",onScroll:c,style:{scrollBehavior:"smooth",msOverflowStyle:"none",scrollbarWidth:"none"},children:e.jsx("div",{className:"flex gap-4 w-max",children:r.map((t,a)=>e.jsx(ce,{className:"w-[400px] md:w-[450px] h-auto flex-shrink-0 p-6 border border-white/20 border-b-0 rounded-2xl",children:e.jsxs("div",{className:"h-full flex flex-col",children:[e.jsx("div",{className:"flex-1 overflow-hidden",children:e.jsxs("p",{className:"text-sm text-[var(--text)]/70 italic dark:text-[var(--muted)] leading-5 line-clamp-8",children:['"',t.review,' "']})}),e.jsxs("div",{className:"flex gap-4 items-center pt-4",children:[e.jsxs(oe,{children:[t.img1?e.jsx(b,{src:t.img1}):e.jsx(b,{name:t.reviewer.slice(0,3)}),t.img2?e.jsx(b,{src:t.img2}):e.jsx(b,{name:(t.reviewer.split(" ").pop()??"").slice(0,3)})]}),e.jsxs("div",{children:[e.jsx("p",{className:"font-semibold text-[var(--text)] text-sm",children:t.reviewer}),e.jsx("p",{className:"text-[var(--muted)] text-xs",children:t.title})]})]})]})},a))})})})]})]})};export{ve as T,ce as c,pe as u};
+import {
+  aF as q,
+  aL as K,
+  aM as U,
+  aU as M,
+  aw as G,
+  ax as Q,
+  aV as Y,
+  r as l,
+  aW as Z,
+  aX as ee,
+  aA as se,
+  az as te,
+  aQ as ae,
+  aB as re,
+  aY as P,
+  ay as v,
+  av as ie,
+  j as e,
+  aZ as le,
+} from "./index-DlnbDoYP.js";
+import { a as oe } from "./chunk-4WIG5FTT-H-0tVdqM.js";
+import { a as b } from "./chunk-CV4BWJDJ-oXyklWrC.js";
+var [ne, pe] = q({
+  name: "CardContext",
+  strict: !0,
+  errorMessage:
+    "useCardContext: `context` is undefined. Seems you forgot to wrap component within <Card />",
+});
+function de(s) {
+  var o, n, d, c;
+  const r = K(),
+    [t, a] = U(s, M.variantKeys),
+    {
+      ref: m,
+      as: u,
+      children: W,
+      onClick: _,
+      onPress: F,
+      autoFocus: H,
+      className: O,
+      classNames: p,
+      allowTextSelectionOnPress: $ = !0,
+      ...x
+    } = t,
+    h = G(m),
+    k = u || (s.isPressable ? "button" : "div"),
+    D = typeof k == "string",
+    i =
+      (n =
+        (o = s.disableAnimation) != null
+          ? o
+          : r == null
+            ? void 0
+            : r.disableAnimation) != null
+        ? n
+        : !1,
+    w =
+      (c =
+        (d = s.disableRipple) != null
+          ? d
+          : r == null
+            ? void 0
+            : r.disableRipple) != null
+        ? c
+        : !1,
+    N = Q(p == null ? void 0 : p.base, O),
+    { onClear: S, onPress: R, ripples: A } = Y(),
+    J = l.useCallback(
+      (C) => {
+        w || i || (h.current && R(C));
+      },
+      [w, i, h, R],
+    ),
+    { buttonProps: I, isPressed: g } = Z(
+      {
+        onPress: ee(F, J),
+        elementType: u,
+        isDisabled: !s.isPressable,
+        onClick: _,
+        allowTextSelectionOnPress: $,
+        ...x,
+      },
+      h,
+    ),
+    { hoverProps: L, isHovered: y } = se({ isDisabled: !s.isHoverable, ...x }),
+    { isFocusVisible: j, isFocused: V, focusProps: B } = te({ autoFocus: H }),
+    f = l.useMemo(() => M({ ...a, disableAnimation: i }), [ae(a), i]),
+    E = l.useMemo(
+      () => ({
+        slots: f,
+        classNames: p,
+        disableAnimation: i,
+        isDisabled: s.isDisabled,
+        isFooterBlurred: s.isFooterBlurred,
+        fullWidth: s.fullWidth,
+      }),
+      [f, p, s.isDisabled, s.isFooterBlurred, i, s.fullWidth],
+    ),
+    z = l.useCallback(
+      (C = {}) => ({
+        ref: h,
+        className: f.base({ class: N }),
+        tabIndex: s.isPressable ? 0 : -1,
+        "data-hover": v(y),
+        "data-pressed": v(g),
+        "data-focus": v(V),
+        "data-focus-visible": v(j),
+        "data-disabled": v(s.isDisabled),
+        ...re(
+          s.isPressable ? { ...I, ...B, role: "button" } : {},
+          s.isHoverable ? L : {},
+          P(x, { enabled: D }),
+          P(C),
+        ),
+      }),
+      [
+        h,
+        f,
+        N,
+        D,
+        s.isPressable,
+        s.isHoverable,
+        s.isDisabled,
+        y,
+        g,
+        j,
+        I,
+        B,
+        L,
+        x,
+      ],
+    ),
+    X = l.useCallback(() => ({ ripples: A, onClear: S }), [A, S]);
+  return {
+    context: E,
+    domRef: h,
+    Component: k,
+    classNames: p,
+    children: W,
+    isHovered: y,
+    isPressed: g,
+    disableAnimation: i,
+    isPressable: s.isPressable,
+    isHoverable: s.isHoverable,
+    disableRipple: w,
+    handlePress: J,
+    isFocusVisible: j,
+    getCardProps: z,
+    getRippleProps: X,
+  };
+}
+var T = ie((s, o) => {
+  const {
+    children: n,
+    context: d,
+    Component: c,
+    isPressable: r,
+    disableAnimation: t,
+    disableRipple: a,
+    getCardProps: m,
+    getRippleProps: u,
+  } = de({ ...s, ref: o });
+  return e.jsxs(c, {
+    ...m(),
+    children: [
+      e.jsx(ne, { value: d, children: n }),
+      r && !t && !a && e.jsx(le, { ...u() }),
+    ],
+  });
+});
+T.displayName = "HeroUI.Card";
+var ce = T;
+const ve = () => {
+  const [s, o] = l.useState(!1),
+    [n, d] = l.useState(!0),
+    c = (t) => {
+      const a = t.currentTarget,
+        m = a.scrollLeft <= 20,
+        u = Math.abs(a.scrollLeft + a.clientWidth - a.scrollWidth) <= 20;
+      (o(!m), d(!u));
+    };
+  let r = [
+    {
+      review:
+        "We've been using multiple products from iJewel, including Sandbox, BatchX, and iJewel, for the past year. All three platforms are fantastic and have significantly streamlined our daily operations. Sandbox and BatchX have greatly reduced our rendering wait times, accelerating our delivery speed, while iJewel has enhanced our customer experience.",
+      reviewer: "Romil Shah",
+      title: "COO, Guild and Facet",
+      img1: "/landing/clients/gnf.png",
+      img2: "/landing/romil_shah.jpeg",
+    },
+    {
+      review:
+        "I'm happy to share my thoughts on iJewel Drive. I've found it to be an incredibly useful tool that has significantly streamlined our workflow. The user-friendly interface and seamless file-sharing capabilities to our customers are particularly impressive. Since my team started using iJewel Drive, I've noticed a marked improvement, allowing them to work more efficiently on our custom projects.",
+      reviewer: "Vik Jain",
+      title: "CEO, Vlora",
+      img1: "/landing/vlora.jpeg",
+      img2: "/landing/vik_jain.jpeg",
+    },
+    {
+      review:
+        "If you design jewelry in Rhino, iJewelViewer is a must-have for client proposals. It's transformed the way we present, replacing static renders with interactive visuals—and it’s already helped me close dozens of jobs in just a few months. At $100 a year, it’s worth every cent.",
+      reviewer: "Christian Stathom",
+      title: "Jewellery Designer",
+      img1: "",
+      img2: "",
+    },
+    {
+      review:
+        "I’ve been working with 3D jewelry modeling for over nine years, and iJewel3D is by far the most practical and revolutionary tool I've used. Its seamless integration with Rhinoceros, combined with the team’s constant innovation, has made it my go-to solution for rendering and client presentations. iJewel3D has truly become indispensable in today’s jewelry market.",
+      reviewer: "Igor M",
+      title: "Senior Jewellery Designer",
+      img1: "",
+      img2: "",
+    },
+    {
+      review:
+        "Keep up the great work iJewel - best new CAD product - last few years. I love you guys",
+      reviewer: "David Parry",
+      title: "Jewellry Designer",
+      img1: "",
+      img2: "",
+    },
+    {
+      review:
+        "I'm going to say something about IJewel. It is the highest-level render platform, easy and intuitive to use. Thanks, Jewel Team, for your effort and for giving us to show and bring it to live our digital creations.",
+      title: "Jewellery Designer",
+      reviewer: "arthur23",
+      img1: "",
+      img2: "",
+    },
+  ];
+  return e.jsxs("div", {
+    id: "testimonials",
+    className:
+      "w-full max-w-[2000px] text-black relative overflow-hidden bg-transparent mx-auto py-12 sm:py-24 px-0",
+    children: [
+      e.jsxs("p", {
+        className: "sm:text-6xl text-center text-4xl text-[var(--text)] mb-2",
+        children: [
+          "Beyond ",
+          e.jsx("br", { className: "block sm:hidden" }),
+          " Expectations",
+        ],
+      }),
+      e.jsx("p", {
+        className:
+          "sm:text-xl text-md text-[var(--text)]/50 text-extralight text-center mb-24",
+        children:
+          "We help brands tell stories through beauty, detail, and immersive 3D experiences.",
+      }),
+      e.jsxs("div", {
+        className: "relative",
+        children: [
+          s &&
+            e.jsx("button", {
+              onClick: () => {
+                const t = document.querySelector(".testimonials-scroll");
+                t &&
+                  t.scrollTo({ left: t.scrollLeft - 410, behavior: "smooth" });
+              },
+              className:
+                "absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white/10 backdrop-blur-sm hover:bg-white/20 rounded-full p-3 shadow-lg transition-opacity duration-200",
+              children: e.jsx("svg", {
+                width: "24",
+                height: "24",
+                viewBox: "0 0 24 24",
+                fill: "none",
+                children: e.jsx("path", {
+                  d: "M15 19L8 12L15 5",
+                  stroke: "currentColor",
+                  strokeWidth: "2",
+                  strokeLinecap: "round",
+                  strokeLinejoin: "round",
+                }),
+              }),
+            }),
+          n &&
+            e.jsx("button", {
+              onClick: () => {
+                const t = document.querySelector(".testimonials-scroll");
+                t &&
+                  t.scrollTo({ left: t.scrollLeft + 410, behavior: "smooth" });
+              },
+              className:
+                "absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white/10 backdrop-blur-sm hover:bg-white/20 rounded-full p-3 shadow-lg transition-opacity duration-200",
+              children: e.jsx("svg", {
+                width: "24",
+                height: "24",
+                viewBox: "0 0 24 24",
+                fill: "none",
+                children: e.jsx("path", {
+                  d: "M9 5L16 12L9 19",
+                  stroke: "currentColor",
+                  strokeWidth: "2",
+                  strokeLinecap: "round",
+                  strokeLinejoin: "round",
+                }),
+              }),
+            }),
+          e.jsx("div", {
+            className: "overflow-hidden",
+            children: e.jsx("div", {
+              className:
+                "testimonials-scroll flex gap-6 py-4 px-2 overflow-x-auto scrollbar-hide",
+              onScroll: c,
+              style: {
+                scrollBehavior: "smooth",
+                msOverflowStyle: "none",
+                scrollbarWidth: "none",
+              },
+              children: e.jsx("div", {
+                className: "flex gap-4 w-max",
+                children: r.map((t, a) =>
+                  e.jsx(
+                    ce,
+                    {
+                      className:
+                        "w-[400px] md:w-[450px] h-auto flex-shrink-0 p-6 border border-white/20 border-b-0 rounded-2xl",
+                      children: e.jsxs("div", {
+                        className: "h-full flex flex-col",
+                        children: [
+                          e.jsx("div", {
+                            className: "flex-1 overflow-hidden",
+                            children: e.jsxs("p", {
+                              className:
+                                "text-sm text-[var(--text)]/70 italic dark:text-[var(--muted)] leading-5 line-clamp-8",
+                              children: ['"', t.review, ' "'],
+                            }),
+                          }),
+                          e.jsxs("div", {
+                            className: "flex gap-4 items-center pt-4",
+                            children: [
+                              e.jsxs(oe, {
+                                children: [
+                                  t.img1
+                                    ? e.jsx(b, { src: t.img1 })
+                                    : e.jsx(b, {
+                                        name: t.reviewer.slice(0, 3),
+                                      }),
+                                  t.img2
+                                    ? e.jsx(b, { src: t.img2 })
+                                    : e.jsx(b, {
+                                        name: (
+                                          t.reviewer.split(" ").pop() ?? ""
+                                        ).slice(0, 3),
+                                      }),
+                                ],
+                              }),
+                              e.jsxs("div", {
+                                children: [
+                                  e.jsx("p", {
+                                    className:
+                                      "font-semibold text-[var(--text)] text-sm",
+                                    children: t.reviewer,
+                                  }),
+                                  e.jsx("p", {
+                                    className: "text-[var(--muted)] text-xs",
+                                    children: t.title,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                    },
+                    a,
+                  ),
+                ),
+              }),
+            }),
+          }),
+        ],
+      }),
+    ],
+  });
+};
+export { ve as T, ce as c, pe as u };

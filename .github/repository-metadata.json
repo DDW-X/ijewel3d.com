@@ -1,0 +1,29 @@
+{
+  "name": "ijewel3d.com",
+  "owner": "DDW-X",
+  "description": "0-to-1 reverse-engineering and architectural case study of the iJewel3D WebGL engine by DDW-X. 9 deep-dive chapters covering dispersion shaders, WASM geometry decoding, and flat-buffer BVH.",
+  "homepage": "https://github.com/DDW-X/ijewel3d.com",
+  "lead_researcher": "DDW-X",
+  "topics": [
+    "webgl",
+    "threejs",
+    "webgi",
+    "reverse-engineering",
+    "wasm",
+    "glsl-shaders",
+    "computational-geometry",
+    "bvh",
+    "pbr",
+    "post-processing",
+    "cybersecurity-research",
+    "case-study",
+    "virtual-try-on",
+    "draco",
+    "ffmpeg-wasm",
+    "performance-optimization",
+    "screen-space-reflections",
+    "shader-analysis",
+    "cad-optimization",
+    "cachestorage"
+  ]
+}

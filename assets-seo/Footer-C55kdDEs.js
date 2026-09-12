@@ -1,1 +1,366 @@
-import{r as l,j as e,V as i,m as o}from"./index-DlnbDoYP.js";function d({children:r}){const[s,a]=l.useState("light-theme"),n=()=>{a(t=>t==="dark-theme"?"light-theme":"dark-theme")};return l.useEffect(()=>{const c=new URLSearchParams(window.location.search).get("debug")==="true";a(c?"dark-theme":"light-theme")},[]),l.useEffect(()=>{const t=document.documentElement;s==="dark-theme"?(t.style.backgroundColor="#111111",t.classList.add("dark")):(t.style.backgroundColor="white",t.classList.remove("dark"))},[s]),e.jsx("div",{className:`landing-wrapper ${s} min-h-screen`,children:e.jsx("div",{className:"transition-colors duration-100",children:i.Children.map(r,t=>i.isValidElement(t)?i.cloneElement(t,{toggleTheme:n,theme:s}):t)})})}const h=()=>e.jsx(o.div,{initial:{opacity:0,y:50},className:"js-animate mx-auto flex justify-center max-w-5xl flex-col gap-12 px-6 py-36 md:max-w-7xl md:flex-row md:gap-8",whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{duration:1.5},children:e.jsx("footer",{className:"bg-[#fff]/95 dark:bg-[#111]/90 dark:text-white",children:e.jsx("div",{className:"max-w-7xl mx-auto",children:e.jsxs("div",{className:"grid grid-cols-2 lg:grid-cols-8 gap-8",children:[e.jsxs("div",{className:"col-span-2 order-first lg:order-none text-[var(--text)]/70",children:[e.jsxs("p",{className:"text-sm",children:["160 Robinson Road,",e.jsx("br",{}),"#14-04 - Singapore Business Federation Center",e.jsx("br",{}),"Singapore - 068914"]}),e.jsx("div",{className:"mt-8 flex gap-4",children:[{href:"https://x.com/ijewel3d",src:"/landing/socials/x.svg",alt:"Twitter/X"},{href:"https://discord.com/invite/apzU8rUWxY",src:"/landing/socials/discord.svg",alt:"Discord"},{href:"https://www.linkedin.com/company/ijewel3d/",src:"/landing/socials/linkedin.svg",alt:"LinkedIn"},{href:"https://www.youtube.com/@iJewel3d",src:"/landing/socials/youtube.svg",alt:"YouTube"},{href:"https://www.instagram.com/ijewel3d/",src:"/landing/socials/instagram.svg",alt:"Instagram"}].map(({href:r,src:s,alt:a})=>e.jsx("a",{href:r,target:"_blank","aria-label":`Visit our ${a} profile`,className:"w-8 h-8 flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-200",children:e.jsx("img",{src:s,alt:`${a} icon`,className:"w-6 h-6 dark:invert",loading:"lazy"})},r))})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Documentation"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"https://developer.ijewel3d.com/",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Getting Started"})}),e.jsx("li",{children:e.jsx("a",{href:"https://developer.ijewel3d.com/viewer/viewer-class.html",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"API Reference"})}),e.jsx("li",{children:e.jsx("a",{href:"https://developer.ijewel3d.com/integrations/shopify-dawn.html",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Integrations"})}),e.jsx("li",{children:e.jsx("a",{href:"https://ijewel.design/home",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Examples"})}),e.jsx("li",{children:e.jsx("a",{href:"https://developer.ijewel3d.com/",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"SDK"})})]})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Products"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"/",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel 3D"})}),e.jsx("li",{children:e.jsx("a",{href:"/products/ijewel-tryon",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel Try On"})}),e.jsx("li",{children:e.jsx("a",{href:"/products/ijewel-batch-x",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel BatchX"})}),e.jsx("li",{children:e.jsx("a",{href:"/products/ijewel-playground",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel Playground"})}),e.jsx("li",{children:e.jsx("a",{href:"/products/ijewel-sdk",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel SDK"})}),e.jsx("li",{children:e.jsx("a",{href:"/products/ijewel-design",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"iJewel Design"})})]})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Integrations"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"/integrations/matrixgold",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"MatrixGold"})}),e.jsx("li",{children:e.jsx("a",{href:"/integrations/countersketch",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"CounterSketch"})}),e.jsx("li",{children:e.jsx("a",{href:"/integrations/rhino-plugin",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Rhino Plugin"})})]})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Events"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"/events/jck/las-vegas-2026",className:"hover:text-[var(--text)] transition-colors",children:"JCK - Las Vegas"})}),e.jsx("li",{children:e.jsx("a",{href:"/events/vicenzaoro/2026",className:"hover:text-[var(--text)] transition-colors",children:"Vicenzaoro - Vicenza"})})]})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Help"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"https://docs.ijewel3d.com/",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Tutorials"})}),e.jsx("li",{children:e.jsx("a",{href:"/contact",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Contact"})})]})]}),e.jsxs("div",{className:"col-span-1",children:[e.jsx("h4",{className:"text-sm font-semibold mb-4 text-[var(--text)]",children:"Legal"}),e.jsxs("ul",{className:"text-sm space-y-6 text-[var(--text)]/70",children:[e.jsx("li",{children:e.jsx("a",{href:"https://developer.ijewel3d.com/introduction/license.html",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Acceptable Use"})}),e.jsx("li",{children:e.jsx("a",{href:"/privacy-policy",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Privacy Policy"})}),e.jsx("li",{children:e.jsx("a",{href:"/terms",target:"_blank",className:"hover:text-[var(--text)] transition-colors",children:"Terms of Service"})})]})]})]})})})});export{h as F,d as L};
+import { r as l, j as e, V as i, m as o } from "./index-DlnbDoYP.js";
+function d({ children: r }) {
+  const [s, a] = l.useState("light-theme"),
+    n = () => {
+      a((t) => (t === "dark-theme" ? "light-theme" : "dark-theme"));
+    };
+  return (
+    l.useEffect(() => {
+      const c =
+        new URLSearchParams(window.location.search).get("debug") === "true";
+      a(c ? "dark-theme" : "light-theme");
+    }, []),
+    l.useEffect(() => {
+      const t = document.documentElement;
+      s === "dark-theme"
+        ? ((t.style.backgroundColor = "#111111"), t.classList.add("dark"))
+        : ((t.style.backgroundColor = "white"), t.classList.remove("dark"));
+    }, [s]),
+    e.jsx("div", {
+      className: `landing-wrapper ${s} min-h-screen`,
+      children: e.jsx("div", {
+        className: "transition-colors duration-100",
+        children: i.Children.map(r, (t) =>
+          i.isValidElement(t)
+            ? i.cloneElement(t, { toggleTheme: n, theme: s })
+            : t,
+        ),
+      }),
+    })
+  );
+}
+const h = () =>
+  e.jsx(o.div, {
+    initial: { opacity: 0, y: 50 },
+    className:
+      "js-animate mx-auto flex justify-center max-w-5xl flex-col gap-12 px-6 py-36 md:max-w-7xl md:flex-row md:gap-8",
+    whileInView: { opacity: 1, y: 0 },
+    viewport: { once: !0 },
+    transition: { duration: 1.5 },
+    children: e.jsx("footer", {
+      className: "bg-[#fff]/95 dark:bg-[#111]/90 dark:text-white",
+      children: e.jsx("div", {
+        className: "max-w-7xl mx-auto",
+        children: e.jsxs("div", {
+          className: "grid grid-cols-2 lg:grid-cols-8 gap-8",
+          children: [
+            e.jsxs("div", {
+              className:
+                "col-span-2 order-first lg:order-none text-[var(--text)]/70",
+              children: [
+                e.jsxs("p", {
+                  className: "text-sm",
+                  children: [
+                    "160 Robinson Road,",
+                    e.jsx("br", {}),
+                    "#14-04 - Singapore Business Federation Center",
+                    e.jsx("br", {}),
+                    "Singapore - 068914",
+                  ],
+                }),
+                e.jsx("div", {
+                  className: "mt-8 flex gap-4",
+                  children: [
+                    {
+                      href: "https://x.com/ijewel3d",
+                      src: "/landing/socials/x.svg",
+                      alt: "Twitter/X",
+                    },
+                    {
+                      href: "https://discord.com/invite/apzU8rUWxY",
+                      src: "/landing/socials/discord.svg",
+                      alt: "Discord",
+                    },
+                    {
+                      href: "https://www.linkedin.com/company/ijewel3d/",
+                      src: "/landing/socials/linkedin.svg",
+                      alt: "LinkedIn",
+                    },
+                    {
+                      href: "https://www.youtube.com/@iJewel3d",
+                      src: "/landing/socials/youtube.svg",
+                      alt: "YouTube",
+                    },
+                    {
+                      href: "https://www.instagram.com/ijewel3d/",
+                      src: "/landing/socials/instagram.svg",
+                      alt: "Instagram",
+                    },
+                  ].map(({ href: r, src: s, alt: a }) =>
+                    e.jsx(
+                      "a",
+                      {
+                        href: r,
+                        target: "_blank",
+                        "aria-label": `Visit our ${a} profile`,
+                        className:
+                          "w-8 h-8 flex items-center justify-center cursor-pointer hover:scale-110 transition-transform duration-200",
+                        children: e.jsx("img", {
+                          src: s,
+                          alt: `${a} icon`,
+                          className: "w-6 h-6 dark:invert",
+                          loading: "lazy",
+                        }),
+                      },
+                      r,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Documentation",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://developer.ijewel3d.com/",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Getting Started",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://developer.ijewel3d.com/viewer/viewer-class.html",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "API Reference",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://developer.ijewel3d.com/integrations/shopify-dawn.html",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Integrations",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://ijewel.design/home",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Examples",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://developer.ijewel3d.com/",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "SDK",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Products",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel 3D",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/products/ijewel-tryon",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel Try On",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/products/ijewel-batch-x",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel BatchX",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/products/ijewel-playground",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel Playground",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/products/ijewel-sdk",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel SDK",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/products/ijewel-design",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "iJewel Design",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Integrations",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/integrations/matrixgold",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "MatrixGold",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/integrations/countersketch",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "CounterSketch",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/integrations/rhino-plugin",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Rhino Plugin",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Events",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/events/jck/las-vegas-2026",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "JCK - Las Vegas",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/events/vicenzaoro/2026",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Vicenzaoro - Vicenza",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Help",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://docs.ijewel3d.com/",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Tutorials",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/contact",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Contact",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.jsxs("div", {
+              className: "col-span-1",
+              children: [
+                e.jsx("h4", {
+                  className: "text-sm font-semibold mb-4 text-[var(--text)]",
+                  children: "Legal",
+                }),
+                e.jsxs("ul", {
+                  className: "text-sm space-y-6 text-[var(--text)]/70",
+                  children: [
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "https://developer.ijewel3d.com/introduction/license.html",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Acceptable Use",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/privacy-policy",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Privacy Policy",
+                      }),
+                    }),
+                    e.jsx("li", {
+                      children: e.jsx("a", {
+                        href: "/terms",
+                        target: "_blank",
+                        className: "hover:text-[var(--text)] transition-colors",
+                        children: "Terms of Service",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          ],
+        }),
+      }),
+    }),
+  });
+export { h as F, d as L };

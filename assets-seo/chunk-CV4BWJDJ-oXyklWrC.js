@@ -1,1 +1,260 @@
-import{r as i,j as d,aF as ia,bd as ca,aL as ua,be as da,aw as O,az as fa,aA as ma,bf as ga,ax as U,aB as Z,ay as j,aY as va,av as ba}from"./index-DlnbDoYP.js";function pa(){const p=()=>()=>{};return i.useSyncExternalStore(p,()=>!0,()=>!1)}var Ca=()=>d.jsxs("svg",{"aria-hidden":"true",fill:"none",height:"80%",role:"presentation",viewBox:"0 0 24 24",width:"80%",children:[d.jsx("path",{d:"M12 2C9.38 2 7.25 4.13 7.25 6.75C7.25 9.32 9.26 11.4 11.88 11.49C11.96 11.48 12.04 11.48 12.1 11.49C12.12 11.49 12.13 11.49 12.15 11.49C12.16 11.49 12.16 11.49 12.17 11.49C14.73 11.4 16.74 9.32 16.75 6.75C16.75 4.13 14.62 2 12 2Z",fill:"currentColor"}),d.jsx("path",{d:"M17.0809 14.1489C14.2909 12.2889 9.74094 12.2889 6.93094 14.1489C5.66094 14.9989 4.96094 16.1489 4.96094 17.3789C4.96094 18.6089 5.66094 19.7489 6.92094 20.5889C8.32094 21.5289 10.1609 21.9989 12.0009 21.9989C13.8409 21.9989 15.6809 21.5289 17.0809 20.5889C18.3409 19.7389 19.0409 18.5989 19.0409 17.3589C19.0309 16.1289 18.3409 14.9889 17.0809 14.1489Z",fill:"currentColor"})]}),[Pa,ha]=ia({name:"AvatarGroupContext",strict:!1});function xa(p={}){const{onLoad:f,onError:m,ignoreFallback:g,src:r,crossOrigin:v,srcSet:n,sizes:s,loading:t,shouldBypassImageLoad:c=!1}=p,a=pa(),l=i.useRef(null),[b,C]=i.useState("pending"),o=i.useCallback(()=>{l.current&&(l.current.onload=null,l.current.onerror=null,l.current=null)},[]),h=i.useCallback(()=>{if(!r)return"pending";if(g||c)return"loaded";o();const e=new Image;return e.onload=u=>{o(),C("loaded"),f==null||f(u)},e.onerror=u=>{o(),C("failed"),m==null||m(u)},v&&(e.crossOrigin=v),n&&(e.srcset=n),s&&(e.sizes=s),t&&(e.loading=t),e.src=r,l.current=e,e.complete?e.naturalWidth&&e.naturalHeight?"loaded":"failed":"loading"},[r,v,n,s,f,m,g,t,c,o]);return ca(()=>{a&&C(h())},[a,h]),g?"loaded":b}function Ia(p={}){var f,m,g,r,v,n,s,t;const c=ua(),a=ha(),l=!!a,{as:b,ref:C,src:o,name:h,icon:e,classNames:u,fallback:W,alt:Y=h||"avatar",imgRef:q,color:_=(f=a==null?void 0:a.color)!=null?f:"default",radius:w=(m=a==null?void 0:a.radius)!=null?m:"full",size:R=(g=a==null?void 0:a.size)!=null?g:"md",isBordered:S=(r=a==null?void 0:a.isBordered)!=null?r:!1,isDisabled:F=(v=a==null?void 0:a.isDisabled)!=null?v:!1,isFocusable:G=!1,getInitials:J=da,ignoreFallback:M=!1,showFallback:K=!1,ImgComponent:I="img",imgProps:B,className:Q,onError:T,disableAnimation:H,...E}=p,X=b||"span",aa=O(C),y=O(q),{isFocusVisible:sa,isFocused:ea,focusProps:L}=fa(),{isHovered:la,hoverProps:oa}=ma({isDisabled:F}),A=(n=H??(c==null?void 0:c.disableAnimation))!=null?n:!1,$=(t=typeof I=="object"&&((s=I==null?void 0:I.displayName)==null?void 0:s.includes("HeroUI")))!=null?t:!1,P=xa({src:o,onError:T,ignoreFallback:M,shouldBypassImageLoad:b!==void 0||I!=="img"&&!$})==="loaded",z=!$,na=(!o||!P)&&K,k=i.useMemo(()=>{var x;return ga({color:_,radius:w,size:R,isBordered:S,isDisabled:F,isInGroup:l,disableAnimation:A,isInGridGroup:(x=a==null?void 0:a.isGrid)!=null?x:!1})},[_,w,R,S,F,A,l,a==null?void 0:a.isGrid]),D=U(u==null?void 0:u.base,Q),N=i.useMemo(()=>G||b==="button",[G,b]),ra=i.useCallback((x={})=>({ref:aa,tabIndex:N?0:-1,"data-hover":j(la),"data-focus":j(ea),"data-focus-visible":j(sa),className:k.base({class:U(D,x==null?void 0:x.className)}),...Z(E,oa,N?L:{})}),[N,k,D,L,E]),ta=i.useCallback((x={})=>({ref:y,src:o,"data-loaded":j(P),className:k.img({class:u==null?void 0:u.img}),...Z(B,x,va({disableAnimation:A},{enabled:z}))}),[k,P,B,A,o,y,z]);return{Component:X,ImgComponent:I,src:o,alt:Y,icon:e,name:h,imgRef:y,slots:k,classNames:u,fallback:W,isImgLoaded:P,showFallback:na,ignoreFallback:M,getInitials:J,getAvatarProps:ra,getImageProps:ta}}var V=ba((p,f)=>{const{Component:m,ImgComponent:g,src:r,icon:v=d.jsx(Ca,{}),alt:n,classNames:s,slots:t,name:c,showFallback:a,fallback:l,getInitials:b,getAvatarProps:C,getImageProps:o}=Ia({...p,ref:f}),h=i.useMemo(()=>!a&&r?null:l?d.jsx("div",{"aria-label":n,className:t.fallback({class:s==null?void 0:s.fallback}),role:"img",children:l}):c?d.jsx("span",{"aria-label":n,className:t.name({class:s==null?void 0:s.name}),role:"img",children:b(c)}):d.jsx("span",{"aria-label":n,className:t.icon({class:s==null?void 0:s.icon}),role:"img",children:v}),[a,r,l,c,s]);return d.jsxs(m,{...C(),children:[r&&d.jsx(g,{...o(),alt:n}),h]})});V.displayName="HeroUI.Avatar";var ja=V;export{Pa as A,ja as a};
+import {
+  r as i,
+  j as d,
+  aF as ia,
+  bd as ca,
+  aL as ua,
+  be as da,
+  aw as O,
+  az as fa,
+  aA as ma,
+  bf as ga,
+  ax as U,
+  aB as Z,
+  ay as j,
+  aY as va,
+  av as ba,
+} from "./index-DlnbDoYP.js";
+function pa() {
+  const p = () => () => {};
+  return i.useSyncExternalStore(
+    p,
+    () => !0,
+    () => !1,
+  );
+}
+var Ca = () =>
+    d.jsxs("svg", {
+      "aria-hidden": "true",
+      fill: "none",
+      height: "80%",
+      role: "presentation",
+      viewBox: "0 0 24 24",
+      width: "80%",
+      children: [
+        d.jsx("path", {
+          d: "M12 2C9.38 2 7.25 4.13 7.25 6.75C7.25 9.32 9.26 11.4 11.88 11.49C11.96 11.48 12.04 11.48 12.1 11.49C12.12 11.49 12.13 11.49 12.15 11.49C12.16 11.49 12.16 11.49 12.17 11.49C14.73 11.4 16.74 9.32 16.75 6.75C16.75 4.13 14.62 2 12 2Z",
+          fill: "currentColor",
+        }),
+        d.jsx("path", {
+          d: "M17.0809 14.1489C14.2909 12.2889 9.74094 12.2889 6.93094 14.1489C5.66094 14.9989 4.96094 16.1489 4.96094 17.3789C4.96094 18.6089 5.66094 19.7489 6.92094 20.5889C8.32094 21.5289 10.1609 21.9989 12.0009 21.9989C13.8409 21.9989 15.6809 21.5289 17.0809 20.5889C18.3409 19.7389 19.0409 18.5989 19.0409 17.3589C19.0309 16.1289 18.3409 14.9889 17.0809 14.1489Z",
+          fill: "currentColor",
+        }),
+      ],
+    }),
+  [Pa, ha] = ia({ name: "AvatarGroupContext", strict: !1 });
+function xa(p = {}) {
+  const {
+      onLoad: f,
+      onError: m,
+      ignoreFallback: g,
+      src: r,
+      crossOrigin: v,
+      srcSet: n,
+      sizes: s,
+      loading: t,
+      shouldBypassImageLoad: c = !1,
+    } = p,
+    a = pa(),
+    l = i.useRef(null),
+    [b, C] = i.useState("pending"),
+    o = i.useCallback(() => {
+      l.current &&
+        ((l.current.onload = null),
+        (l.current.onerror = null),
+        (l.current = null));
+    }, []),
+    h = i.useCallback(() => {
+      if (!r) return "pending";
+      if (g || c) return "loaded";
+      o();
+      const e = new Image();
+      return (
+        (e.onload = (u) => {
+          (o(), C("loaded"), f == null || f(u));
+        }),
+        (e.onerror = (u) => {
+          (o(), C("failed"), m == null || m(u));
+        }),
+        v && (e.crossOrigin = v),
+        n && (e.srcset = n),
+        s && (e.sizes = s),
+        t && (e.loading = t),
+        (e.src = r),
+        (l.current = e),
+        e.complete
+          ? e.naturalWidth && e.naturalHeight
+            ? "loaded"
+            : "failed"
+          : "loading"
+      );
+    }, [r, v, n, s, f, m, g, t, c, o]);
+  return (
+    ca(() => {
+      a && C(h());
+    }, [a, h]),
+    g ? "loaded" : b
+  );
+}
+function Ia(p = {}) {
+  var f, m, g, r, v, n, s, t;
+  const c = ua(),
+    a = ha(),
+    l = !!a,
+    {
+      as: b,
+      ref: C,
+      src: o,
+      name: h,
+      icon: e,
+      classNames: u,
+      fallback: W,
+      alt: Y = h || "avatar",
+      imgRef: q,
+      color: _ = (f = a == null ? void 0 : a.color) != null ? f : "default",
+      radius: w = (m = a == null ? void 0 : a.radius) != null ? m : "full",
+      size: R = (g = a == null ? void 0 : a.size) != null ? g : "md",
+      isBordered: S = (r = a == null ? void 0 : a.isBordered) != null ? r : !1,
+      isDisabled: F = (v = a == null ? void 0 : a.isDisabled) != null ? v : !1,
+      isFocusable: G = !1,
+      getInitials: J = da,
+      ignoreFallback: M = !1,
+      showFallback: K = !1,
+      ImgComponent: I = "img",
+      imgProps: B,
+      className: Q,
+      onError: T,
+      disableAnimation: H,
+      ...E
+    } = p,
+    X = b || "span",
+    aa = O(C),
+    y = O(q),
+    { isFocusVisible: sa, isFocused: ea, focusProps: L } = fa(),
+    { isHovered: la, hoverProps: oa } = ma({ isDisabled: F }),
+    A = (n = H ?? (c == null ? void 0 : c.disableAnimation)) != null ? n : !1,
+    $ =
+      (t =
+        typeof I == "object" &&
+        ((s = I == null ? void 0 : I.displayName) == null
+          ? void 0
+          : s.includes("HeroUI"))) != null
+        ? t
+        : !1,
+    P =
+      xa({
+        src: o,
+        onError: T,
+        ignoreFallback: M,
+        shouldBypassImageLoad: b !== void 0 || (I !== "img" && !$),
+      }) === "loaded",
+    z = !$,
+    na = (!o || !P) && K,
+    k = i.useMemo(() => {
+      var x;
+      return ga({
+        color: _,
+        radius: w,
+        size: R,
+        isBordered: S,
+        isDisabled: F,
+        isInGroup: l,
+        disableAnimation: A,
+        isInGridGroup: (x = a == null ? void 0 : a.isGrid) != null ? x : !1,
+      });
+    }, [_, w, R, S, F, A, l, a == null ? void 0 : a.isGrid]),
+    D = U(u == null ? void 0 : u.base, Q),
+    N = i.useMemo(() => G || b === "button", [G, b]),
+    ra = i.useCallback(
+      (x = {}) => ({
+        ref: aa,
+        tabIndex: N ? 0 : -1,
+        "data-hover": j(la),
+        "data-focus": j(ea),
+        "data-focus-visible": j(sa),
+        className: k.base({ class: U(D, x == null ? void 0 : x.className) }),
+        ...Z(E, oa, N ? L : {}),
+      }),
+      [N, k, D, L, E],
+    ),
+    ta = i.useCallback(
+      (x = {}) => ({
+        ref: y,
+        src: o,
+        "data-loaded": j(P),
+        className: k.img({ class: u == null ? void 0 : u.img }),
+        ...Z(B, x, va({ disableAnimation: A }, { enabled: z })),
+      }),
+      [k, P, B, A, o, y, z],
+    );
+  return {
+    Component: X,
+    ImgComponent: I,
+    src: o,
+    alt: Y,
+    icon: e,
+    name: h,
+    imgRef: y,
+    slots: k,
+    classNames: u,
+    fallback: W,
+    isImgLoaded: P,
+    showFallback: na,
+    ignoreFallback: M,
+    getInitials: J,
+    getAvatarProps: ra,
+    getImageProps: ta,
+  };
+}
+var V = ba((p, f) => {
+  const {
+      Component: m,
+      ImgComponent: g,
+      src: r,
+      icon: v = d.jsx(Ca, {}),
+      alt: n,
+      classNames: s,
+      slots: t,
+      name: c,
+      showFallback: a,
+      fallback: l,
+      getInitials: b,
+      getAvatarProps: C,
+      getImageProps: o,
+    } = Ia({ ...p, ref: f }),
+    h = i.useMemo(
+      () =>
+        !a && r
+          ? null
+          : l
+            ? d.jsx("div", {
+                "aria-label": n,
+                className: t.fallback({
+                  class: s == null ? void 0 : s.fallback,
+                }),
+                role: "img",
+                children: l,
+              })
+            : c
+              ? d.jsx("span", {
+                  "aria-label": n,
+                  className: t.name({ class: s == null ? void 0 : s.name }),
+                  role: "img",
+                  children: b(c),
+                })
+              : d.jsx("span", {
+                  "aria-label": n,
+                  className: t.icon({ class: s == null ? void 0 : s.icon }),
+                  role: "img",
+                  children: v,
+                }),
+      [a, r, l, c, s],
+    );
+  return d.jsxs(m, {
+    ...C(),
+    children: [r && d.jsx(g, { ...o(), alt: n }), h],
+  });
+});
+V.displayName = "HeroUI.Avatar";
+var ja = V;
+export { Pa as A, ja as a };

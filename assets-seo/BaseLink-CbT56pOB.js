@@ -1,1 +1,20 @@
-import{r as h,b as d,b4 as p,j as i,aj as c}from"./index-DlnbDoYP.js";const u=h.forwardRef(({to:e,...t},n)=>{const r=d(),x=r==null?void 0:r.basename,a=typeof e=="string"?p(e):e;if(!(a!=null&&a.pathname))return i.jsx(c,{ref:n,to:e,...t});let{pathname:s}=a;const{search:m,hash:o}=a;return s.startsWith("/")?(s=`/${x||"drive"}${s}`,i.jsx(c,{ref:n,to:{pathname:s,search:m,hash:o},className:"text-secondary",...t})):i.jsx(c,{ref:n,to:{pathname:s,search:m,hash:o},...t})});u.displayName="BaseLink";export{u as B};
+import { r as h, b as d, b4 as p, j as i, aj as c } from "./index-DlnbDoYP.js";
+const u = h.forwardRef(({ to: e, ...t }, n) => {
+  const r = d(),
+    x = r == null ? void 0 : r.basename,
+    a = typeof e == "string" ? p(e) : e;
+  if (!(a != null && a.pathname)) return i.jsx(c, { ref: n, to: e, ...t });
+  let { pathname: s } = a;
+  const { search: m, hash: o } = a;
+  return s.startsWith("/")
+    ? ((s = `/${x || "drive"}${s}`),
+      i.jsx(c, {
+        ref: n,
+        to: { pathname: s, search: m, hash: o },
+        className: "text-secondary",
+        ...t,
+      }))
+    : i.jsx(c, { ref: n, to: { pathname: s, search: m, hash: o }, ...t });
+});
+u.displayName = "BaseLink";
+export { u as B };
