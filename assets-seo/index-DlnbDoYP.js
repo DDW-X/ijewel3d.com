@@ -27817,7 +27817,7 @@ var [Hoe, yL] = od({
 });
 const Voe = "modulepreload",
   _oe = function (e) {
-    return "/" + e;
+    return "./" + e;
   },
   m9 = {},
   ke = function (t, r, n) {
